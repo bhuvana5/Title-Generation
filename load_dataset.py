@@ -2,7 +2,7 @@ import  numpy as np
 def LoadDataset(maxlen,minlen):
     text=''
     words=set()
-    files = ['dataset_bbc.txt'
+    files = ['input_data.txt'
              ]
     path ='dataset/'
     for file in files:
